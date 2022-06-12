@@ -25,17 +25,14 @@ header{
     color: #F3E6E2;
 }
 
-.lista{
+.navbar-nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
     list-style: none;
 }
-.lista li{
+.navbar-nav li{
     margin: 10px;
-}
-.destinos{
-    list-style: none;
 }
 video{
     width: 100%;
@@ -63,17 +60,11 @@ main{
     display: flex;
     text-align: justify;
 }
-
-.fotos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.fotos img{
-    width: 400px;
-    height: 550px;
-    margin: 30px;
+.carousel-inner div img{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 footer{
     background-color: #DDA3B2;
