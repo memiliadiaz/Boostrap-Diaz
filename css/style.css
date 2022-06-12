@@ -15,15 +15,14 @@ header{
     color: #F3E6E2;
     padding: 15px;
 }
-header .logo{
+.navbar-brand{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.logo img{
-    margin: 20px;
-    width: 100px;
+.nombrelogo{
+    color: #F3E6E2;
 }
 
 .lista{

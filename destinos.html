@@ -5,65 +5,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./png-transparent-gps-navigation-systems-computer-icons-map-map-location-symbol-navigation.png">
+    <link rel="shortcut icon"
+        href="./png-transparent-gps-navigation-systems-computer-icons-map-map-location-symbol-navigation.png">
     <script src="https://kit.fontawesome.com/2673cbf1b1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Destinos</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <img src="./img/unnamed.png" alt="">
-            <section class="nombre">
-                <h1>Maria Emilia Diaz</h1>
-                <h3>Tours</h3>
-            </section>
-        </div>
         <!-- Menu de navegacion -->
-        <nav>
-            <!-- unordered list: lista no ordenada -->
-            <ul class="lista">
-                <!-- list items -->
-                <li>
-                    <a href="./index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="./quienes_somos.html">QUIENES SOMOS</a>
-                </li>
-                <li><a href="./destinos.html">DESTINOS</a>:
-                    <ol class="destinos">
-                        <li>WORLD DISNEY WORLD</li>
-                        <li>EUROPA</li>
-                        <li>CARIBE</li>
-                    </ol>
-                </li>
-                <li><a href="./paquetes.html">PAQUETES</a></li>
-                <li>
-                    <!-- Anchor: ancla | href: hipervinculo de referencia (link) -->
-                    <!-- apreto ./ y elijo a que archivo hara referencia -->
-                    <a href="./contacto.html">CONTACTO</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/unnamed.png" alt="" width="100" class="d-inline-block align-text-top">
+                    <div class="nombrelogo">
+                        <h1>Maria Emilia Diaz</h1>
+                        <h3>Tours</h3>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">INDEX</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./quienes_somos.html">Quienes somos</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="./destinos.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Destinos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Walt Disney World</a></li>
+                                <li><a class="dropdown-item" href="#">España</a></li>
+                                <li><a class="dropdown-item" href="#">Caribe</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paquetes.html">Paquetes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
+        
     </header>
     <main>
         <div class="container">
 
             <div class="row">
-                <div class="col-xl-5 col-sm-12">
+                <div class="col-md-5 col-sm-12">
                     <video src="./img/Overview - Walt Disney World Resort Vacation Planning Video (1 of 14).mp4"
-                    controls autoplay muted></video>
+                        controls autoplay muted></video>
                 </div>
-                <div class="col-xl-7 col-sm-12">
+                <div class="col-md-7 col-sm-12">
                     <h2 class="pad">Destinos principales</h2>
                     <ol class="pad destinos">
                         <li>WORLD DISNEY WORLD</li>
                         <li>EUROPA</li>
                         <li>CARIBE</li>
                     </ol>
-                    <small class="pad texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque minus quisquam ratione, voluptate maiores ex inventore nobis. Distinctio harum facere provident, facilis quod maiores dolorem, asperiores nisi officiis animi libero earum odio veniam placeat tempora? Veritatis dolorem reiciendis totam quod quam, laudantium odio maxime, ad dolore accusamus blanditiis sequi neque ui nobis voluptates? Enim omnis facere modi commodi incidunt. Aperiam eaque unde officiis vitae harum tempora quibusdam adipisci voluptatem alias perspiciatis fugit fugiat, voluptatum est veniam! Tempora soluta explicabo tenetur, omnis quaerat doloribus. Quis, possimus cupiditate, nesciunt et atque quasi ab excepturi sunt voluptatem id molestiae ipsa, quae in!</small>
+                    <small class="pad texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab cumque minus
+                        quisquam ratione, voluptate maiores ex inventore nobis. Distinctio harum facere provident,
+                        facilis quod maiores dolorem, asperiores nisi officiis animi libero earum odio veniam placeat
+                        tempora? Veritatis dolorem reiciendis totam quod quam, laudantium odio maxime, ad dolore
+                        accusamus blanditiis sequi neque ui nobis voluptates? Enim omnis facere modi commodi incidunt.
+                        Aperiam eaque unde officiis vitae harum tempora quibusdam adipisci voluptatem alias perspiciatis
+                        fugit fugiat, voluptatum est veniam! Tempora soluta explicabo tenetur, omnis quaerat doloribus.
+                        Quis, possimus cupiditate, nesciunt et atque quasi ab excepturi sunt voluptatem id molestiae
+                        ipsa, quae in!</small>
                 </div>
             </div>
 
@@ -82,7 +108,9 @@
             <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i> </a>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
