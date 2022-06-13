@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 *{
     margin: 0;
@@ -21,9 +24,11 @@ header{
     justify-content: center;
     align-items: center;
 }
-.nombrelogo{
+.nombrelogo h1, .nombrelogo h3{
     color: #F3E6E2;
+    font-family: 'Dancing Script', cursive;
 }
+
 
 .navbar-nav{
     display: flex;
@@ -33,6 +38,9 @@ header{
 }
 .navbar-nav li{
     margin: 10px;
+}
+.nav-link{
+    font-family: 'Arvo', serif;
 }
 video{
     width: 100%;
@@ -51,7 +59,23 @@ main{
     flex-direction: row;
     margin: 30px;
 }
+.container-index{
+    display: flex;
+    flex-direction: column;
+}
 
+.textoindex h3{
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    text-align: center;
+    padding: 30px;
+}
+.textoindex small{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    padding: 50px;
+    font-weight: bold;
+}
 .pad{
     padding: 10px;
     text-align: justify;
@@ -66,6 +90,20 @@ main{
     margin-left: auto;
     margin-right: auto
 }
+form{
+    padding: 20px;
+}
+.mb-3 input:hover{
+    background-color: #F3E6E2;
+}
+.btn{
+    display: flex;
+    align-items: center;
+}
+.btn:hover{
+    transform: scale(1.15);
+}
+
 footer{
     background-color: #DDA3B2;
     text-align: center;
