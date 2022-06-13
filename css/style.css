@@ -96,10 +96,7 @@ form{
 .mb-3 input:hover{
     background-color: #F3E6E2;
 }
-.btn{
-    display: flex;
-    align-items: center;
-}
+
 .btn:hover{
     transform: scale(1.15);
 }
