@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
 
 *{
     margin: 0;
@@ -119,6 +120,19 @@ form{
     background-size: cover;
     padding: 100px;
 }
+.mainqs{
+    background-image: url(../img/unnamed.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+.textoqs{
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
 footer{
     background-color: #DDA3B2;
     text-align: center;
