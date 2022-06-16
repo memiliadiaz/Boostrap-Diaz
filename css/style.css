@@ -101,6 +101,24 @@ form{
     transform: scale(1.15);
 }
 
+.formcontacto div label{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.formcontacto, .form2{
+    display: flex;
+    justify-content: center;
+}
+.form-control{
+    resize: none;
+}
+.form-label{
+    font-weight: bold;
+}
+.maincon{
+    background-image: url(../img/mapa1.avif);
+    background-size: cover;
+    padding: 100px;
+}
 footer{
     background-color: #DDA3B2;
     text-align: center;
